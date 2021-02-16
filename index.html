@@ -2,39 +2,85 @@
 <html lang="eng">
 <head>
     <meta charset="UTF-8">
-    <title>CV</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <title>CV - st43189</title>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
-</head>
-<body>
-<! -- Navbar -->
-<nav class="navbar navbar-fixed-top navbar-light bg-faded">
-    <button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#navbar-collapse">&#9776;</button>
-    <a class="navbar-brand" href="#">CV</a>
-    <div class="collapse navbar-toggleable-sm" id="navbar-collapse">
-        <ul class="nav navbar-nav pull-xs-right">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Education</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">professional Appointments</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Hobbies</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-<! -- End Navbar -->
 
-<div class="test">
-    <p>HELLO WORLD<p>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+<body id="home">
+
+<div include-nav="html/navigation.html"></div>
+<script>includeHTML("include-nav");</script>
+
+<section id="hero">
+    <div id="hero-text">
+        <h1>Milan Horák</h1>
+        <h2>(st43189)</h2>
+    </div>
+</section>
+<div class="topic" id="education">
+    <h2>Education</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam id dolor. Donec quis nibh at felis congue
+        commodo. Praesent dapibus. Quisque tincidunt scelerisque libero. Duis condimentum augue id magna semper rutrum.
+        Nam quis nulla. Fusce consectetuer risus a nunc. Integer lacinia. Mauris suscipit, ligula sit amet pharetra
+        semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Maecenas lorem. Duis ante orci, molestie
+        vitae vehicula venenatis, tincidunt ac pede. Vivamus ac leo pretium faucibus. Nemo enim ipsam voluptatem quia
+        voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+        nesciunt.</p>
+    <p>In rutrum. Fusce wisi. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem
+        purus in lacus. Praesent vitae arcu tempor neque lacinia pretium. Suspendisse sagittis ultrices augue. Duis
+        risus. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Vivamus luctus egestas leo. Integer
+        imperdiet lectus quis justo. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor
+        suscipit diam nulla vel leo. Curabitur sagittis hendrerit ante. Temporibus autem quibusdam et aut officiis
+        debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+        Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Pellentesque pretium lectus id turpis. Cras
+        elementum. Integer malesuada. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante. Duis
+        bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus.</p>
 </div>
+<div class="topic" id="professional-appointments">
+    <h2>Professional Appointments</h2>
+    <p>Nullam at arcu a est sollicitudin euismod. Integer malesuada. Proin in tellus sit amet nibh dignissim sagittis.
+        Integer tempor. Mauris metus. Mauris dolor felis, sagittis at, luctus sed, aliquam non, tellus. Pellentesque
+        sapien. Maecenas sollicitudin. Suspendisse sagittis ultrices augue. Fusce suscipit libero eget elit. Nemo enim
+        ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+        ratione voluptatem sequi nesciunt. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Fusce
+        tellus odio, dapibus id fermentum quis, suscipit id erat. Quisque tincidunt scelerisque libero. Duis bibendum,
+        lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Quisque porta.
+        Suspendisse sagittis ultrices augue. Pellentesque pretium lectus id turpis. Integer in sapien.</p>
+</div>
+<div class="topic" id="hobbies">
+    <h2>Hobbies</h2>
+    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut
+        enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
+        commodi consequatur? Curabitur bibendum justo non orci. Nullam eget nisl. Curabitur bibendum justo non orci.
+        Pellentesque sapien. Phasellus rhoncus. Etiam egestas wisi a erat. Etiam dictum tincidunt diam. Curabitur ligula
+        sapien, pulvinar a vestibulum quis, facilisis vel sapien. Phasellus enim erat, vestibulum vel, aliquam a,
+        posuere eu, velit. Integer malesuada. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+        voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. In convallis. Aliquam in
+        lorem sit amet leo accumsan lacinia. Quisque porta. Excepteur sint occaecat cupidatat non proident, sunt in
+        culpa qui officia deserunt mollit anim id est laborum. Aliquam erat volutpat.</p>
+</div>
+<div class="topic" id="why-choose-me">
+    <h2>Why choose me</h2>
+    <p>Duis condimentum augue id magna semper rutrum. Ut tempus purus at lorem. Curabitur ligula sapien, pulvinar a
+        vestibulum quis, facilisis vel sapien. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. In sem
+        justo, commodo ut, suscipit at, pharetra vitae, orci. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu,
+        orci. Sed ac dolor sit amet purus malesuada congue. Etiam dictum tincidunt diam. Fusce nibh. Praesent id justo
+        in neque elementum ultrices. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Aliquam erat
+        volutpat. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Quis autem vel eum iure reprehenderit
+        qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
+        nulla pariatur? Praesent in mauris eu tortor porttitor accumsan. Itaque earum rerum hic tenetur a sapiente
+        delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores
+        repellat.</p>
+</div>
+
+<div include-footer="html/footer.html"></div>
+<script>includeHTML("include-footer");</script>
 
 </body>
 </html>
