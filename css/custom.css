@@ -1,12 +1,82 @@
-body {
-    background-color: #cccccc;
+body, html {
+    /*background-color: skyblue;*/
 }
 
-p {
+footer {
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#hero {
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/hero.jpg");
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+#hero-text {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 4px 2px 3px #000000;
+}
+
+.topic {
+    text-align: justify;
+    padding: 25px 20% 5px 20%;
+}
+
+.grid-container {
+    border-radius: 4px;
+    border: 2px solid whitesmoke;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 300px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.grid-item {
+    background-color: black;
+    color: whitesmoke;
+    text-align: left;
+    padding: 0 5px;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-toggler {
+    color: #666666;
+}
+
+.navbar-toggler:hover {
+    background-color: #666666;
     color: black;
 }
 
-.text {
-    background-color: #8b211e;
-    color: green;
+.nav-item {
+    border-radius: 4px;
+    background-color: #333333;
+    padding: 0 5px;
+    transition: 0.5s;
+}
+
+.nav-item:hover {
+    background-color: #666666;
 }
