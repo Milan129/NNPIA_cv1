@@ -3,6 +3,7 @@ body, html {
 }
 
 footer {
+    text-align: center;
     display: flex;
     background-color: black;
     color: whitesmoke;
