@@ -33,10 +33,6 @@
 }
 
 @media (max-width: 47.9em) {
-    body {
-        background-color: green;
-    }
-
     footer {
         flex-direction: column;
         margin: auto;
