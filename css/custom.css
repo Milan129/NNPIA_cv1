@@ -1,5 +1,5 @@
 body, html {
-    /*background-color: skyblue;*/
+    background-color: skyblue;
 }
 
 footer {
@@ -40,6 +40,10 @@ footer {
     padding: 25px 20% 5px 20%;
 }
 
+.topic h2 {
+    text-align: left;
+}
+
 .grid-container {
     border-radius: 4px;
     border: 2px solid whitesmoke;
@@ -57,26 +61,3 @@ footer {
     padding: 0 5px;
 }
 
-.navbar {
-    background-color: black;
-}
-
-.navbar-toggler {
-    color: #666666;
-}
-
-.navbar-toggler:hover {
-    background-color: #666666;
-    color: black;
-}
-
-.nav-item {
-    border-radius: 4px;
-    background-color: #333333;
-    padding: 0 5px;
-    transition: 0.5s;
-}
-
-.nav-item:hover {
-    background-color: #666666;
-}
